@@ -1,0 +1,27 @@
+# feeder
+feeder: feeders.feeder.Feeder
+test_feeder_args:
+  data_path: ./data/ntu120/xset/val_data_forward.npy
+  label_path: ./data/ntu120/xset/val_label.pkl
+  debug: False
+
+# model
+model: model.agcn.Model
+model_args:
+  num_class: 120
+  num_point: 25
+  num_person: 2
+  graph: graph.ntu_rgb_d.Graph
+  graph_args:
+    labeling_mode: 'spatial'
+
+
+# test 
+phase: test
+device: [0]
+test_batch_size: 512
+weights: ./runs/ntu120_xset_agcn_forward-41-35742.pt
+
+work_dir: ./work_dir/ntu120/xset/agcn_test_forward
+model_saved_name: ./runs/ntu120_xset_agcn_test_forward
+save_score: True
