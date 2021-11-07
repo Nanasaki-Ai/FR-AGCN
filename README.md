@@ -4,6 +4,8 @@ Forward-reverse Adaptive Graph Convolutional Network for Skeleton-Based Action R
 # Abstract
 In this work, we propose the novel forward-reverse adaptive graph convolutional networks (FR-AGCN) for skeleton-based action recognition. The sequences of joints and bones, as well as their reverse information, are modeled in the multi-stream networks at the same time. By extracting the features of forward and reverse deep information and performing multi-stream fusion, this strategy can significantly improve the recognition accuracy.
 
+This paper has been submitted to **Neurocomputing**. This work has been carefully revised based on the professional comments of the editors and reviewers, and is in the second review.
+
 # Environment
 
  PyTorch version  >=0.4
@@ -283,6 +285,8 @@ For 'UAV-Human':
 
  Meanwhile, we are very grateful to the creators of these three datasets, i.e., NTU RGB+D 60, NTU RGB+D 120, UAV-Human. Your selfless work has made a great contribution to the computer vision community!
 
+ Last but not least, The authors are very grateful for the selfless and constructive suggestions of the reviewers.
+ 
 # Contact
 
  If you find that the above description is not clear, or you have other issues that need to be communicated when conducting the experiment,
