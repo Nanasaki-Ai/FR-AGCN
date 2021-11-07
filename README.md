@@ -285,7 +285,7 @@ For 'UAV-Human':
 
  Meanwhile, we are very grateful to the creators of these three datasets, i.e., NTU RGB+D 60, NTU RGB+D 120, UAV-Human. Your selfless work has made a great contribution to the computer vision community!
 
- Last but not least, The authors are very grateful for the selfless and constructive suggestions of the reviewers.
+ Last but not least, the authors are very grateful for the selfless and constructive suggestions of the reviewers.
  
 # Contact
 
