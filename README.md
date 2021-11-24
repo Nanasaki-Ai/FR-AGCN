@@ -61,7 +61,7 @@ Here, we compare the performance of using each type of input data separately and
 
  For 'NTU RGB+D':
 
- - Download the raw data from 'NTU-RGB+D' (http://rose1.ntu.edu.sg/Datasets/actionRecognition.asp).
+ - Download the raw data from 'NTU-RGB+D' (https://rose1.ntu.edu.sg/dataset/actionRecognition/).
  - Then put them under the data directory:
  
         -data\  
@@ -90,7 +90,7 @@ Here, we compare the performance of using each type of input data separately and
 
  For 'NTU RGB+D 120':
 
- - Download the raw data from 'NTU-RGB+D 120' (http://rose1.ntu.edu.sg/Datasets/actionRecognition.asp).
+ - Download the raw data from 'NTU-RGB+D 120' (https://rose1.ntu.edu.sg/dataset/actionRecognition/).
  - Then put them under the data directory:
  
         -data\  
