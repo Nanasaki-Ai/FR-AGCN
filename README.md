@@ -6,16 +6,16 @@ In this work, we propose the novel forward-reverse adaptive graph convolutional 
 
 This paper has been submitted to **Neurocomputing**. This work has been carefully revised based on the professional comments of the editors and reviewers.
 
-State
-
-Sep 3, 2021 submitted to journal
-Sep 5, 2021 required reviews conpleted
-Oct 6, 2021 revise and reconsider
-Oct 25, 2021 revision submitted to journall
-Oct 29, 2021 under review
-Dec 02, 2021 required reviews conpleted
-Dec 03, 2021 decision in process
-Dec 07, 2021 accept with minor revision
+|Date|State|
+| -- | -- |
+|Sep 3, 2021 |submitted to journal|
+|Sep 5, 2021 |required reviews conpleted|
+|Oct 6, 2021 |revise and reconsider|
+|Oct 25, 2021| revision submitted to journall|
+|Oct 29, 2021| under review|
+|Dec 02, 2021| required reviews conpleted|
+|Dec 03, 2021| decision in process|
+|Dec 07, 2021|accept with minor revision|
 
 # Environment
 
