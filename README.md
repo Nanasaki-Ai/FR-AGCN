@@ -4,7 +4,18 @@ Forward-reverse Adaptive Graph Convolutional Network for Skeleton-Based Action R
 # Abstract
 In this work, we propose the novel forward-reverse adaptive graph convolutional networks (FR-AGCN) for skeleton-based action recognition. The sequences of joints and bones, as well as their reverse information, are modeled in the multi-stream networks at the same time. By extracting the features of forward and reverse deep information and performing multi-stream fusion, this strategy can significantly improve the recognition accuracy.
 
-This paper has been submitted to **Neurocomputing**. This work has been carefully revised based on the professional comments of the editors and reviewers, and is in the second review.
+This paper has been submitted to **Neurocomputing**. This work has been carefully revised based on the professional comments of the editors and reviewers.
+
+State
+
+Sep 3, 2021 submitted to journal
+Sep 5, 2021 required reviews conpleted
+Oct 6, 2021 revise and reconsider
+Oct 25, 2021 revision submitted to journall
+Oct 29, 2021 under review
+Dec 02, 2021 required reviews conpleted
+Dec 03, 2021 decision in process
+Dec 07, 2021 accept with minor revision
 
 # Environment
 
@@ -54,7 +65,7 @@ Here, we compare the performance of using each type of input data separately and
 |FRJ-AGCN| 88.74 | 95.17 | 83.25  | 83.86  | 41.97  | 67.68  |
 |FRB-AGCN| 89.55 | 94.99 | 85.62  | 85.50  | 41.13  | 66.51  |
 |FJB-AGCN| 89.29 | 95.34 | 85.58  | 85.77  | 42.78  | 68.75  |
-|RJB-AGCN| 89.85 | 95.20 | 85.47  | 86.05  | 42.22  | 63.92  |
+|RJB-AGCN| 89.85 | 95.20 | 85.47  | 86.05  | 42.22  | 67.92  |
 |FR-AGCN | 90.46 | 95.83 | 86.60  | 86.99  | 43.98  | 69.50  |
 
 # Data Preparation
