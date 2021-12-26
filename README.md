@@ -1,12 +1,12 @@
 # FR-AGCN
-Forward-reverse Adaptive Graph Convolutional Network for Skeleton-Based Action Recognition
-
-Authors: Zesheng Hu, Zihao Pan, Qiang Wang, Lei Yu, Shumin Fei
+**Forward-reverse Adaptive Graph Convolutional Network for Skeleton-Based Action Recognition**
 
 # Abstract
 In this work, we propose the novel forward-reverse adaptive graph convolutional networks (FR-AGCN) for skeleton-based action recognition. The sequences of joints and bones, as well as their reverse information, are modeled in the multi-stream networks at the same time. By extracting the features of forward and reverse deep information and performing multi-stream fusion, this strategy can significantly improve the recognition accuracy.
 
 This paper has been submitted to **Neurocomputing**. This work has been carefully revised based on the professional comments of the editors and reviewers.
+
+Article available online: https://doi.org/10.1016/j.neucom.2021.12.054
 
 |Date|State|
 | -- | -- |
@@ -22,6 +22,7 @@ This paper has been submitted to **Neurocomputing**. This work has been carefull
 |Dec 10, 2021|under review|
 |Dec 11, 2021|decision in process|
 |**Dec 13, 2021**|**accept**|
+|Dec 24, 2021|article published online|
 
 # Environment
 
@@ -304,6 +305,20 @@ For 'UAV-Human':
 
  Last but not least, the authors are very grateful for the selfless and constructive suggestions of the reviewers.
  
+# Citation 
+ 
+```bibtex
+@article{HU2021,
+title = {Forward-reverse Adaptive Graph Convolutional Networks for Skeleton-Based Action Recognition},
+journal = {Neurocomputing},
+year = {2021},
+issn = {0925-2312},
+doi = {https://doi.org/10.1016/j.neucom.2021.12.054},
+url = {https://www.sciencedirect.com/science/article/pii/S0925231221018920},
+author = {Zesheng Hu and Zihao Pan and Qiang Wang and Lei Yu and Shumin Fei},
+} 
+```
+
 # Contact
 
  If you find that the above description is not clear, or you have other issues that need to be communicated when conducting the experiment,
