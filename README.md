@@ -11,18 +11,13 @@ Article available online: https://doi.org/10.1016/j.neucom.2021.12.054
 |Date|State|
 | -- | -- |
 |Sep 03, 2021|submitted to journal|
-|Sep 05, 2021|required reviews conpleted|
 |Oct 06, 2021|revise and reconsider|
 |Oct 25, 2021|revision submitted to journall|
-|Oct 29, 2021|under review|
-|Dec 02, 2021|required reviews conpleted|
-|Dec 03, 2021|decision in process|
 |Dec 07, 2021|accept with minor revision|
 |Dec 09, 2021|revision submitted to journall|
-|Dec 10, 2021|under review|
-|Dec 11, 2021|decision in process|
 |**Dec 13, 2021**|**accept**|
 |Dec 24, 2021|article published online|
+|Dec 30, 2021|article published online (Corrected Proof)|
 
 # Environment
 
