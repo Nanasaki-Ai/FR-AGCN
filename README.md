@@ -12,9 +12,9 @@ Article available online: https://doi.org/10.1016/j.neucom.2021.12.054
 | -- | -- |
 |Sep 03, 2021|submitted to journal|
 |Oct 06, 2021|revise and reconsider|
-|Oct 25, 2021|revision submitted to journall|
+|Oct 25, 2021|revision submitted to journal|
 |Dec 07, 2021|accept with minor revision|
-|Dec 09, 2021|revision submitted to journall|
+|Dec 09, 2021|revision submitted to journal|
 |**Dec 13, 2021**|**accept**|
 |Dec 24, 2021|article published online|
 |Dec 30, 2021|article published online (Corrected Proof)|
