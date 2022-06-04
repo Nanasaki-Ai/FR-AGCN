@@ -303,15 +303,14 @@ For 'UAV-Human':
 # Citation 
  
 ```bibtex
-@article{HU2021,
-title = {Forward-reverse Adaptive Graph Convolutional Networks for Skeleton-Based Action Recognition},
+@article{HU2022624,
+title = {Forward-reverse adaptive graph convolutional networks for skeleton-based action recognition},
 journal = {Neurocomputing},
-year = {2021},
-issn = {0925-2312},
-doi = {https://doi.org/10.1016/j.neucom.2021.12.054},
-url = {https://www.sciencedirect.com/science/article/pii/S0925231221018920},
+volume = {492},
+pages = {624-636},
+year = {2022},
 author = {Zesheng Hu and Zihao Pan and Qiang Wang and Lei Yu and Shumin Fei},
-} 
+}
 ```
 
 # Contact
