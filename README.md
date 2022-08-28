@@ -317,10 +317,7 @@ author = {Zesheng Hu and Zihao Pan and Qiang Wang and Lei Yu and Shumin Fei},
 
  If you find that the above description is not clear, or you have other issues that need to be communicated when conducting the experiment,
  please leave a message on github. Besides, we look forward to discussions about skeleton-based action recognition.
- Feel free to contact me via email:
  
-     `20194229016@stu.suda.edu.cn`
+ Now I am a Phd student at Nanjing Normal University. Feel free to contact me via email:
  
- I expect to graduate in July 2022, feel free to contact me via email after that:
- 
-     `741465026@qq.com`
+     `222201006@njnu.edu.cn`
