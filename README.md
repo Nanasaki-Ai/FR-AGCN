@@ -167,17 +167,9 @@ For 'UAV-Human':
  - It is recommended to use the method developed by the author for preprocessing (https://github.com/SUTDCV/UAV-Human/tree/master/uavhumanposetools), **but the preprocess file needs to be replaced. Note that generate_uav_data.py is based on 2s-AGCN and UAV-Human.**
  - Pay attention to the setting of the number of joint points, the maximum number of frames **fu**, and the downsampling downsampling parameters **S**.
 
- - Preprocess the data with
+ - First, preprocess the data with
  
     `python data_gen/generate_uav_data.py`
-
-    `python data_gen/gen_forward_data.py`
-
-    `python data_gen/gen_reverse_data.py`
-
-    `python data_gen/gen_forward_bone_data.py`
-
-    `python data_gen/gen_reverse_bone_data.py`
 
  - Then put them under the data directory:
  
@@ -187,6 +179,17 @@ For 'UAV-Human':
             -train_label.pkl
             -test_data.npy
             -test_label.pkl
+
+ - Finally, preprocess the data with
+ 
+    `python data_gen/gen_forward_data.py`
+
+    `python data_gen/gen_reverse_data.py`
+
+    `python data_gen/gen_forward_bone_data.py`
+
+    `python data_gen/gen_reverse_bone_data.py`
+
 
 # Training & Testing
 
