@@ -16,8 +16,6 @@ Article available online: https://doi.org/10.1016/j.neucom.2021.12.054
 |Dec 07, 2021|accept with minor revision|
 |Dec 09, 2021|revision submitted to journal|
 |**Dec 13, 2021**|**accept**|
-|Dec 24, 2021|article published online|
-|Dec 30, 2021|article published online (Corrected Proof)|
 
 # Environment
 
