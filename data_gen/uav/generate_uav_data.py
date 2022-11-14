@@ -13,7 +13,7 @@ import re
 import numpy as np
 from tqdm import tqdm
 
-from pose_data_tools.preprocess import pre_normalization
+from pose_data_tool.preprocess import pre_normalization
 
 MAX_BODY_TRUE = 2
 MAX_BODY_KINECT = 4
