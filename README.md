@@ -151,20 +151,25 @@ Here, we compare the performance of using each type of input data separately and
 For 'UAV-Human':
 
  - Download the raw data from 'UAV-Human' (https://github.com/SUTDCV/UAV-Human).
- - For the CSv2 benchmark of UAV-HUman, you may have to classify the training set and the testing set according to the ID.
- - We experimented with two benchmarks in two folders，i.e., UAVAGCN and UAVAGCN1.
- - It is recommended to use the method developed by the author for preprocessing, but the preprocess file needs to be replaced (https://github.com/SUTDCV/UAV-Human/tree/master/uavhumanposetools).
- - Pay attention to the setting of the number of joint points and the maximum number of frames.
+ - For both benchmarks of UAV-HUman, you may have to classify the training set and the testing set according to the ID.
+ 
+ 
  - Then put them under the data directory:
  
         -data\  
           -uav\  
-            -train_data.npy
-            -train_label.pkl
-            -val_data.npy
-            -val_label.pkl
+          -train\
+          	-put the training samples under this file\
+          -test\ 
+          	-put the testing samples under this file\
+	  
+ - We experimented with two benchmarks in two folders，i.e., UAVAGCN and UAVAGCN1.
+ - It is recommended to use the method developed by the author for preprocessing (https://github.com/SUTDCV/UAV-Human/tree/master/uavhumanposetools), **but the preprocess file needs to be replaced. Note that generate_uav_data.py is based on 2s-AGCN and UAV-Human.**
+ - Pay attention to the setting of the number of joint points, the maximum number of frames **fu**, and the downsampling downsampling parameters **S**.
 
  - Preprocess the data with
+ 
+    `python data_gen/generate_uav_data.py`
 
     `python data_gen/gen_forward_data.py`
 
@@ -173,6 +178,15 @@ For 'UAV-Human':
     `python data_gen/gen_forward_bone_data.py`
 
     `python data_gen/gen_reverse_bone_data.py`
+
+ - Then put them under the data directory:
+ 
+        -data\  
+          -uav\  
+            -train_data.npy
+            -train_label.pkl
+            -test_data.npy
+            -test_label.pkl
 
 # Training & Testing
 
