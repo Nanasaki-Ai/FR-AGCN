@@ -8,7 +8,7 @@ from numpy.lib.format import open_memmap
 
 
 sets = {
-    'train', 'val',
+    'train', 'test',
 }
 
 # 'ntu/xview', 'ntu/xsub'
@@ -29,4 +29,4 @@ for dataset in datasets:
             dtype='float32',
             mode='w+',
             shape=(N, 3, T1, V, M))
-        reverse[:, :, :T1, :, :] = data[:, :, ::2, :, :] 
+        reverse[:, :, :T1, :, :] = data[:, :, ::-2, :, :] 
