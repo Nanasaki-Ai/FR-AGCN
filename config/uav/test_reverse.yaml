@@ -1,7 +1,7 @@
 # feeder
 feeder: feeders.feeder.Feeder
 test_feeder_args:
-  data_path: ./data/uav/val_data_reverse.npy
+  data_path: ./data/uav/train_data_reverse.npy
   label_path: ./data/uav/test_label.pkl
   debug: False
 
