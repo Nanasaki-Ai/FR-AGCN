@@ -8,7 +8,7 @@ from numpy.lib.format import open_memmap
 
 
 sets = {
-    'train', 'val',
+    'train', 'test',
 }
 
 # 'ntu/xview', 'ntu/xsub'
